@@ -4,7 +4,7 @@
 extern int leapsecs_init();
 extern int leapsecs_read();
 
-extern void leapsecs_add();
-extern int leapsecs_sub();
+extern void leapsecs_add(struct tai *t, int hit);
+extern int leapsecs_sub(struct tai *t);
 
 #endif

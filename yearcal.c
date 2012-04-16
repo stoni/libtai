@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "caldate.h"
 
 char *montab[] = {
@@ -16,7 +17,7 @@ char *montab[] = {
 , "December"
 } ;
 
-void main(argc,argv)
+int main(argc,argv)
 int argc;
 char **argv;
 {
@@ -63,5 +64,5 @@ char **argv;
     printf("\n");
   }
 
-  exit(0);
+  return(0);
 }

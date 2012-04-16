@@ -6,8 +6,7 @@ static unsigned long montab[12] =
 { 0, 31, 61, 92, 122, 153, 184, 214, 245, 275, 306, 337 } ;
 /* month length after february is (306 * m + 5) / 10 */
 
-long caldate_mjd(cd)
-struct caldate *cd;
+long caldate_mjd(struct caldate *cd)
 {
   long y;
   long m;

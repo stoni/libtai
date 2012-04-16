@@ -1,8 +1,6 @@
 #include "caldate.h"
 
-unsigned int caldate_scan(s,cd)
-char *s;
-struct caldate *cd;
+unsigned int caldate_scan(char *s, struct caldate *cd)
 {
   int sign = 1;
   char *t = s;
