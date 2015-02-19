@@ -1,7 +1,7 @@
 @echo off
 
 SET CMD=cmake
-SET CMD=%CMD% -G"Visual Studio 10"
+SET CMD=%CMD% -G"Visual Studio 11"
 
 if not exist build goto make_build_dir
 

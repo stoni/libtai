@@ -16,6 +16,9 @@ add_library(libtai ${TIME_SRC})
 #add_executable(nowutc nowutc.c)
 #target_link_libraries(nowutc libtai)
 
+add_executable(converter converter.c)
+target_link_libraries(converter libtai)
+
 add_executable(leapsecs leapsecs.c)
 target_link_libraries(leapsecs libtai)
 
