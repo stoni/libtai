@@ -6,9 +6,7 @@
 extern struct tai *leapsecs;
 extern int leapsecs_num;
 
-void leapsecs_add(t,hit)
-struct tai *t;
-int hit;
+void leapsecs_add(struct tai *t, int hit)
 {
   int i;
   uint64_t u;

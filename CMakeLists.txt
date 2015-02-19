@@ -5,8 +5,8 @@ include_directories("${PROJECT_BINARY_DIR}" "${CMAKE_SOURCE_DIR}/include")
 
 #Libtai
 set (TIME_SRC caldate_fmjd.c caldate_fmt.c caldate_mjd.c caldate_norm.c caldate_scan.c caldate_ster.c caltime_fmt.c
-	caltime_scan.c caltime_tai.c caltime_utc.c leapsecs_add.c leapsecs_init.c 
-	leapsecs_read.c leapsecs_sub.c tai_add.c tai_now.c tai_pack.c tai_sub.c tai_unpack.c)
+	caltime_scan.c caltime_tai.c caltime_utc.c leapsecs_read.c leapsecs_init.c  
+	tai_add.c tai_now.c tai_pack.c tai_sub.c tai_unpack.c leapsecs_add.c leapsecs_sub.c)
 
 add_library(libtai ${TIME_SRC})
 
