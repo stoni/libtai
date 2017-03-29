@@ -1,4 +1,4 @@
-# http://pobox.com/~djb/libtai/leapsecs.txt, version 1998-10-13
+# http://cr.yp.to/libtai/leapsecs.txt, version 2017-01-06
 #
 # Official sources:
 # http://maia.usno.navy.mil/leapsec.html
